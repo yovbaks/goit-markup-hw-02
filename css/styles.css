@@ -35,7 +35,29 @@ li {
 .logo .footer {
   color: var(--white-color);
 }
+.nav-top .link {
+  color: var(--title-color);
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-top .link:hover,
+.nav-top .link:focus {
+  color: var(--theme-color);
+}
+
+.contacts-top .link {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-top .link:hover, .contacts-top .link:focus{
+   color: var(--theme-color);
+}
 .hero-title {
   color: var(--white-color);
   text-transform: uppercase;
@@ -53,11 +75,19 @@ li {
   color: var(--title-color);
 }
 .button {
+  background-color: var(--bgcolor2);
+  color: var(--title-color);
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+}
+.button.primary{
+
+}
+.button.secondary{
+
 }
 
 .button-hero {
@@ -67,6 +97,7 @@ li {
   cursor: pointer;
   letter-spacing: 0.06em;
 }
+
 .hero {
   background-color: var(--bgcolor-accent);
 }
