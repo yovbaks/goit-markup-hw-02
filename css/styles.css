@@ -108,7 +108,12 @@ li {
   letter-spacing: 0.06em;
   border-radius: 4px;
 }
+/* .button-hero:focus, .button-hero:hover{
+  background-color: var(--bgcolor2);
+  color: var(--title-color);
+  border-color: var(--bgcolor2);
 
+} */
 .hero {
   background-color: var(--bgcolor-accent);
 }
