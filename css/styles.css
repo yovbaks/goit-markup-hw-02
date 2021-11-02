@@ -19,7 +19,7 @@ a {
 li {
   list-style-type: none;
 }
-
+/* LOGO  */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -35,9 +35,10 @@ li {
 .logo .footer {
   color: var(--white-color);
 }
+
+/* Navigation  */
 .nav-top .link {
   color: var(--title-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,6 +63,12 @@ li {
 .contacts-top .link:focus {
   color: var(--theme-color);
 }
+
+/* Hero  */
+
+.hero {
+  background-color: var(--bgcolor-accent);
+}
 .hero-title {
   color: var(--white-color);
   text-transform: uppercase;
@@ -72,18 +79,20 @@ li {
   letter-spacing: 0.06em;
 }
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+
+/* Button  */
 .button {
   background-color: var(--bgcolor2);
   color: var(--title-color);
   border-color: var(--bgcolor2);
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -101,7 +110,7 @@ li {
   color: var(--white-color);
   background-color: var(--theme-color);
   border-color: var(--theme-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
@@ -114,11 +123,8 @@ li {
   border-color: var(--bgcolor2);
 
 } */
-.hero {
-  background-color: var(--bgcolor-accent);
-}
-.nav-top {
-}
+
+/* Features  */
 
 .features-list .text {
   font-size: 14px;
@@ -127,12 +133,14 @@ li {
 }
 .features-list .title {
   color: var(--title-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+/* Comanda  */
 .comanda {
   background-color: var(--bgcolor2);
 }
@@ -148,6 +156,24 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+/* Gallery */
+
+.gallery {
+}
+.gallery-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 .footer {
   background-color: var(--bgcolor-accent);
 }
@@ -162,20 +188,4 @@ li {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
-}
-
-.gallery {
-}
-.gallery-title {
-  color: var(--title-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.gallery-text {
-  color: var(--text-color);
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
 }
