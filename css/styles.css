@@ -47,6 +47,9 @@ li {
 .nav-top .link:focus {
   color: var(--theme-color);
 }
+.nav-top .link.current {
+  color: var(--theme-color);
+}
 
 .contacts-top .link {
   color: var(--text-color);
@@ -55,8 +58,9 @@ li {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.contacts-top .link:hover, .contacts-top .link:focus{
-   color: var(--theme-color);
+.contacts-top .link:hover,
+.contacts-top .link:focus {
+  color: var(--theme-color);
 }
 .hero-title {
   color: var(--white-color);
@@ -77,25 +81,32 @@ li {
 .button {
   background-color: var(--bgcolor2);
   color: var(--title-color);
+  border-color: var(--bgcolor2);
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
-.button.primary{
 
-}
-.button.secondary{
-
+.button.active:hover,
+.button.active:focus {
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
 }
 
 .button-hero {
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 
 .hero {
