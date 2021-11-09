@@ -6,6 +6,7 @@
   --text-color: #757575;
   --bgcolor2: #f5f4fa;
 }
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
